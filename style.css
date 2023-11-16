@@ -25,3 +25,18 @@ section{
     background: hotpink;
     height: 100vh;
 }
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emoji{
+    font-size: 10em;
+    user-select: none;
+}
+#random-emoji{
+    background: rgb(63, 11, 207);
+}
