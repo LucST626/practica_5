@@ -34,9 +34,18 @@ section{
 }
 
 #emoji{
-    font-size: 10em;
+    font-size: 5em;
     user-select: none;
 }
 #random-emoji{
     background: rgb(63, 11, 207);
 }
+
+#emoji:hover{
+    font-size: 10em;
+    padding: 0.8em;
+    transition: 500ms;
+    transform: rotate(360deg);
+}
+
+#
