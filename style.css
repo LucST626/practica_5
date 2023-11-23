@@ -22,7 +22,6 @@ body{
 
 section{
     width: 100%;
-    background: hotpink;
     height: 100vh;
 }   
 
@@ -91,6 +90,7 @@ section{
     width: 100%;
     margin-bottom: 20px;
 }
-#Gradient{
-        
+.input-group{
+    width: 100%;
+    margin-bottom: 20px;
 }

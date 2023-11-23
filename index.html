@@ -27,14 +27,22 @@
             <input type="range" min="0" max="255" id="B-input" class="color-output" onchange="newColor()">      
           </div>
     </section>
-    <section id="Gradient" class="flex-center">
-        <input type="range" min="0" max="255" id="R1-input" class="color-output" onchange="newColor()">
-        <input type="range" min="0" max="255" id="G1-input" class="color-output" onchange="newColor()">    
-        <input type="range" min="0" max="255" id="B1-input" class="color-output" onchange="newColor()">  
-        <input type="range" min="0" max="255" id="R2-input" class="color-output" onchange="newColor()">
-        <input type="range" min="0" max="255" id="G2-input" class="color-output" onchange="newColor()">    
-        <input type="range" min="0" max="255" id="B2-input" class="color-output" onchange="newColor()">  
+    <section id="gradient" class="flex-center">
+        <div class="quarterwidth flex-center">
+            <div id="input-group"> 
+                <input type="range" min="0" max="255" id="R1-input" class="input-group" onchange="gradientColor()">
+                <input type="range" min="0" max="255" id="G1-input" class="input-group" onchange="gradientColor()">    
+                <input type="range" min="0" max="255" id="B1-input" class="input-group" onchange="gradientColor()"> 
+            </div>
+            <br>
+            <div id="input-group">
+                <input type="range" min="0" max="255" id="R2-input" class="input-group" onchange="gradientColor()">
+                <input type="range" min="0" max="255" id="G2-input" class="input-group" onchange="gradientColor()">    
+                <input type="range" min="0" max="255" id="B2-input" class="input-group" onchange="gradientColor()">  
+            </div>
+            <div>
+                <input type="range" min="0" max="360" id="gradient-deg" class="input-group" onchange="gradientColor()">            </div>
+        </div>
     </section>
-
 </body>
 </html>
